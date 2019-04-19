@@ -6,7 +6,7 @@ import java.util.Set;
 import java.util.HashSet;
 
 class GenericUser {
-    protected Map<String, Boolean> accessRights ;
+    private Map<String, Boolean> accessRights ;
     private Set<String> protectedRights;
 
     GenericUser(HashSet<String> protectedRights) {
